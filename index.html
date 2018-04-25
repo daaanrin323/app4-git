@@ -1,0 +1,347 @@
+﻿<!doctype html>
+<html>
+<head>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<title>Día Mundial de la Bicicleta</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"><script> -->
+ <script src="phonegap.js"></script>
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+</head>
+ 
+<body onLoad="MM_preloadImages('imagenes/giphy.gif','imagenes/sykkelens-historie-9809.jpg')">
+ 
+ <div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Día Mundial de la Bicicleta</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Banner conmemorativo</h1>
+<div>
+<p>conmemoracion:</p>
+<br>
+</div>
+<div>
+<img src="imagenes/dia_bici_df_4 (1).png" width="50%" height="50%">
+</div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Historia De la Bicicleta</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Utilización como medio de transporte</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>TIPOS DE BICICLETAS</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>5 Marcas Importantes De Bicicleta</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Por que se celebra el Día Mundial de la Bicicleta</h2>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/Bicycle.png" width="46" height="46">
+</div>
+<div>
+<h4>Aplicacion Tres</h4>
+<h4>Rodrigo Daniel Bautista Pérez</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Historia De la Bicicleta</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>La primera bicicleta, fabricada con madera, se llamaba draisina porque la inventó Karl Drais en 1817. No tenía pedales: había que empujarla con los pies en el suelo. Un herrero escocés llamado Kirkpatrick Macmillan creó la primera máquina con pedales y dos ruedas en 1839.En 1861, al francés Ernest Michaux se le ocurrió una original mejora: ubicar los pedales en la rueda delantera. No triunfó porque se necesitaba mucho equilibrio para manejarla, pero la idea de los pedales conectados a la rueda abrió el camino para llegar a la bicicleta tal y como la usamos actualmente. Para resolver el problema de la falta de equilibrio, en 1873, un inventor inglés llamado James Starley propuso una máquina con la rueda delantera mucho más grande que la trasera. En enero de 1887, el norteamericano Thomas Stevens comenzó el primer viaje en bicicleta alrededor del mundo. Partió de San Francisco y no llegaría hasta tres años después. Toda una aventura.Por fin, en 1885, aparece la Safety Bicycle (bicicleta de seguridad), inventada por John Kemp Starley. Tenía frenos, permitía una postura más natural y el ciclista estaba más cerca del suelo, por lo que las caídas no eran tan peligrosas. Después, se añadieron las ruedas con cámara de aire y la cadena de transmisión conectada a la rueda de atrás. Es la bicicleta moderna.
+La bicicleta servía tanto para el campo como para la ciudad. Era un medio de transporte barato y accesible a cualquier persona. Además se puede arreglar con unos pocos conocimientos de mecánica. En Europa del norte, nunca ha dejado de utilizarse: países como Suiza, Alemania, los Países Bajos, algunas zonas de Polonia y los países escandinavos, y a pesar del frío y las malas condiciones meteorológicas, han sido siempre países defensores de este medio de transporte. También en China y la India ha sido durante años el principal medio de transporte.La historia y evolución de la bicicleta a lo largo de los años ha sido muy intensa. Ha sufrido muchas transformaciones y mejoras hasta llegar a ser tal y como la conocemos hoy.El 19 de abril de cada año celebramos el Día Mundial de la Bicicleta, cuyo principal objetivo es fomentar este medio de transporte entre los habitantes y resaltar los derechos de los ciclistas.</h2>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','imagenes/sykkelens-historie-9809.jpg',1)"><img src="imagenes/sykkelens-historie-9810.jpg" width="953" height="2219" id="Image36"></a> </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/Bicycle.png" width="46" height="46">
+</div>
+<h4>Aplicacion Tres, RDBP</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Utilización como medio de transporte</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>La bicicleta, un vehículo de transporte tan revolucionario como útil que el ser humano inventó a inicios del siglo XIX, ha evolucionado hasta ser considerado como uno de los pocos medios de transporte sostenible en Ecuador. Tomando en consideración el impacto ambiental que ocasiona un parque automotor voluminoso, la bicicleta se ha convertido en el más eficaz y económico a la hora de movilizarse en distancias medias (de hasta 5 km).Más que un medio de transporte, la bicicleta ahora forma parte de un estilo de vida. Se fue incorporando a las actividades de paraguayos que apostaron principalmente a la salud y economía.Varias son las ventajas: las bicicletas no necesitan combustible, no pagan estacionamiento, no deben ir de tanto en tanto al mecánico; el ciclista no paga pasaje, no tiene que pagar impuestos; está comprobado que andar en bici mejora el humor y estado de ánimo, ayuda a reducir el colesterol, combatir los problemas cardíacos y quemar grasa.
+
+Además, evita la contaminación y el ciclista se ahorra tiempo en el tráfico. Sin embargo, muchas personas no se animan a usarla por temor a ser hostigadas y atropelladas por automovilistas y motociclistas.
+
+El Reglamento General de Tránsito de la Municipalidad de Asunción, en el capítulo tercero, sección cuarta «De las bicicletas, triciclones sin motor y vehículos similares», menciona en el artículo 48:
+
+«Toda bicicleta o vehículo similar deberá presentar, para circular por la vía pública, las siguientes condiciones:
+
+a. Timbre o bocina. Su inobservancia constituye falta leve.
+
+b. Condiciones mecánicas y frenos adecuados. (Su inobservancia constituye falta grave).
+
+c. Dos faros: uno en la parte delantera que proyecte luz blanca y otro en la parte trasera que irradie luz roja; este último podrá ser remplazado por un dispositivo cuya superficie refleje la luz roja. (Su inobservancia constituye falta grave).</h2></div>
+<img src="imagenes/dia3.jpg" width="50%" height="50%">
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/Bicycle.png" width="46" height="46">
+</div>
+<h4>Aplicacion Tres, RDBP</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>TIPOS DE BICICLETAS</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2><font color="#FF0000">1.Bicicletas de Montaña (MTB)</font>
+Las bicicletas de montaña (también conocidas como MTB) están diseñadas para “fuera de ruta” por lo que son bastante resistentes. Están equipadas con llantas anchas con dibujos marcados para mejorar el agarre en terrenos sueltos. Regularmente usan manubrios rectos o de doble altura.
+Las MTB se pueden encontrar sin suspensión (rígidas), con suspensión delantera (hardtail) o con doble suspensión (full-suspension) dependiendo de su especialidad:
+Cross country
+Enduro
+Downhill
+Freeride
+<BR>
+<font color="#FF0000">2.Bicicletas de Ruta</font>
+Son bicicletas orientadas a obtener velocidad en pavimento, de construcción más ligera que otras bicicleta, están dotadas con ruedas más grandes, delgadas y provistas de llantas angostas y con dibujo liso. Las bicis de ruta utilizan manubrios drop-bar para lograr una postura más aerodinámica.
+<BR>
+<font color="#FF0000">3.Bicicletas Híbridas</font>
+Las bicicletas híbridas son bastante versátiles ya que combinan características de las bicis de montaña y de las de ruta.Estas bicicletas nacieron como una solución para quienes necesitan una bicicleta para la ciudad, pero que tenga la flexibilidad de ser usada en diferentes terrenos. Los cuadros son resistentes y con una geometría que permite adoptar una posición cómoda que permite relajar los brazos y el cuello.
+<BR>
+<font color="#FF0000">4.Bicicletas Urbanas(CUIDAD)</font>
+En este caso nos referimos como bicicleta urbana a las bicis estilo holandés (Dutch).
+Estas bicicletas fueron concebidas para la ciudad, por lo que son de construcción bastante solida tanto en su cuadro como en sus ruedas. Están perfectamente adecuadas para soportar las condiciones de una ciudad (baches, banquetas, topes, etc.)
+<BR>
+Por lo general cuenta con guardabarros para días de lluvia, portaequipaje y/o canasta para transportar todo lo que necesitas para ir al trabajo, al supermercado, etc. Una característica común en este tipo de bicicletas es la presencia de luces para mantenernos siempre visibles a los conductores.
+Normalmente tienen una sola velocidad, o sistema de cambios internos de ser necesario.
+Estas bicicletas permiten una posición relajada de torso y brazos.
+<BR>
+
+<font color="#FF0000">5.Bicicletas plegables</font>
+La gran mayoría de estas bicicletas usan ruedas pequeñas, siendo 16 y 20″ las más comunes, aunque es posible encontrar plegables con rodados más convencionales. Casi todas las plegables están diseñadas para uso urbano, no obstante existen modelos que aguantan viajes largos sin problemas.
+Un inconveniente de de las ruedas pequeñas es que son más sensibles a las imperfecciones del camino, aunque si lo que necesitas es una bici que puedes llevar contigo en todo momento no hay como una plegable.
+En general vienen equipadas con 18- 20 cambios.
+<BR>
+<font color="#FF0000">6.Fixies y single speed</font>
+Si bien su conceptp es el de ser una bicicleta sencilla, se han convertido en algo así como las bicicletas de culto para el ciclismo urbano. Su principal característica es su diseño simple y en muchos casos minimalista, sumamente eficientes y funcionales.
+Esta familia de bicis viene en varias formas y estilos; las hay con manubrios rectos, de doble altura, drop bars, bullhorns, etc.
+Están equipadas con una sola velocidad por lo que requieren mucho menos mantenimiento que otras bicicletas. La diferencia entre las single-speed y las fixies es que en las single-speed utilizan una rueda libre, mientras que las fixies utilizan un piñón fijo.
+<BR>
+<font color="#FF0000">7.Cruisers</font>
+Este tipo de bicicletas están diseñadas para trayectos cortos y sobre pavimento preferencialmente. Su geometría y manubrio característico permiten una postura sumamente relajada. Estas bicicletas suelen ser pesadas y usan llantas anchas lo que las hace poco eficientes en trayectos de más de 10km. Normalmente tienen una sola velocidad aunque algunos fabricantes tienen modelos con tres velocidades. Otra característica común en las cruiser son los frenos de contrapedal.
+<BR>
+<font color="#FF0000">8.MBX</font>
+Las BMX utilizan cuadros pequeños y resistentes, ideales para saltos y acrobacias. Existen diferentes variables de estas bicicletas, algunas con llantas anchas para usarse en terrenos sueltos y otras con llantas un poco más delgadas y lisas para usarse en rampas o en la calle. Estas bicicletas no son eficientes como medio de transporte.
+<BR>
+<font color="#FF0000">9.Touring</font>
+Estas bicicletas se usan para recorrer largas distancias y cargar peso. Sus cuadros son muy robustos e incluyen monturas para instalar rack trasero y delantero además de varias caramañolas. Aunque la gran mayoría de estas bicicletas utilizan drop-bars también son comunes los manubrios de trekking, rectos y de doble altura, dependiendo del tipo de viaje que se vaya a realizar.
+Tienen un gran rango de velocidades: suficientemente bajas que facilitan subir pendientes bastante pronunciadas al estar completamente cargadas y velocidades altas para mantener la velocidad aun en las bajadas. Están equipadas con frenos potentes, generalmente frenos de disco o cantilever (los tradicionales).Los rodados comunes son de 26″
+<BR>
+<font color="#FF0000">10.Eléctricas</font>
+En la actualidad se puede encontar versiones de pedaleo asistido (eléctricas) de casi cualquier tipo de bicicleta. Las bicicletas eléctricas son todas aquellas bicis que utilizan un motor para asistir el pedaleo. Su principal ventaja es a la hora de subir pendientes, pedalear contra el viento (hay lugares donde el viento es muy intenso) o para quien tiene que pedalear largas distancias para ir al trabajo y quiere reducir el esfuerzo. Por otro lado estas bicis son más costosas y pesadas que el resto. Quieres ver algunas?
+<BR>
+<font color="#FF0000">11.Bicicletas utilitarias</font>
+Al ser utilizadas para mover carga, esta familia de bicis utilizan cuadros sumamente fuertes, con un buen sistema de frenos (frenos de disco, tambor, son comunes) y una relación de velocidades adecuada para mover el peso extra. Existen bicis cargo de diferentes tipos y diferentes capacidades dependiendo de lo que se vaya a mover. Otra variante es el tipo de area de carga y el posicionamiento de la carga:
+Sobre la rueda delantera, trasera o ambas
+Entre el manubrio y la rueda delantera mejor conocidas como Long John
+Detrás del ciclista conocidas como Longtail
+Entre ruedas paralelas ya sea delanteras o traseras (triciclos)
+<BR>
+<font color="#FF0000">12.Fat Bikes</font>
+Son de reciente aparición y su uso principal es sobre terrenos con nieve o arena, grandes piedras, raíces, et. La principal característica de estas bicicletas son sus llantas rodado 26″ sumamente anchas (normalmente de entre 3 y 3.6 pulgadas). La geometría de su cuadro es muy similar a una bicicleta de montaña con la diferencia de que usa tijera/horquilla y vainas con holgura adecuada para las ruedas gordas. Estas bicis están equipadas con velocidades múltiples y frenos de disco.</h2></div>
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/hibrida.jpg" alt="hibrida" title="hibrida" id="wows1_2"/></li>
+		<li><img src="data1/images/ciudad.jpg" alt="ciudad" title="ciudad" id="wows1_3"/></li>
+		<li><img src="data1/images/plegable.jpg" alt="plegable" title="plegable" id="wows1_4"/></li>
+		<li><img src="data1/images/fixie.jpg" alt="fixie" title="fixie" id="wows1_5"/></li>
+		<li><img src="data1/images/cruiser.jpg" alt="cruiser" title="cruiser" id="wows1_6"/></li>
+		<li><img src="data1/images/mbx.jpg" alt="MBX" title="MBX" id="wows1_7"/></li>
+		<li><img src="data1/images/touring.jpg" alt="touring" title="touring" id="wows1_8"/></li>
+		<li><img src="data1/images/electricas.jpg" alt="electricas" title="electricas" id="wows1_9"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/cargo.jpg" alt="http://wowslider.com/" title="cargo" id="wows1_10"/></a></li>
+		<li><img src="data1/images/fat_bike.jpg" alt="fat_bike" title="fat_bike" id="wows1_11"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="MTB"><span><img src="data1/tooltips/mtb.jpg" alt="MTB"/>1</span></a>
+		<a href="#" title="ruta"><span><img src="data1/tooltips/ruta.jpg" alt="ruta"/>2</span></a>
+		<a href="#" title="hibrida"><span><img src="data1/tooltips/hibrida.jpg" alt="hibrida"/>3</span></a>
+		<a href="#" title="ciudad"><span><img src="data1/tooltips/ciudad.jpg" alt="ciudad"/>4</span></a>
+		<a href="#" title="plegable"><span><img src="data1/tooltips/plegable.jpg" alt="plegable"/>5</span></a>
+		<a href="#" title="fixie"><span><img src="data1/tooltips/fixie.jpg" alt="fixie"/>6</span></a>
+		<a href="#" title="cruiser"><span><img src="data1/tooltips/cruiser.jpg" alt="cruiser"/>7</span></a>
+		<a href="#" title="MBX"><span><img src="data1/tooltips/mbx.jpg" alt="MBX"/>8</span></a>
+		<a href="#" title="touring"><span><img src="data1/tooltips/touring.jpg" alt="touring"/>9</span></a>
+		<a href="#" title="electricas"><span><img src="data1/tooltips/electricas.jpg" alt="electricas"/>10</span></a>
+		<a href="#" title="cargo"><span><img src="data1/tooltips/cargo.jpg" alt="cargo"/>11</span></a>
+		<a href="#" title="fat_bike"><span><img src="data1/tooltips/fat_bike.jpg" alt="fat_bike"/>12</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/Bicycle.png" width="46" height="46">
+</div>
+<h4>Aplicacion Tres, RDBP</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>5 Marcas Importantes De Bicicleta</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2><font color="#FF0000">1. Scott Spark RC 900 Worldcup – Nino Schurter</font>
+Se trata de la bicicleta del campeón de la Copa del Mundo 2017 Nino Schurter. Mantiene la base del año pasado, en cuanto al diseño del cuadro. El proveedor de transmisiones y </h2>
+<ul>
+  <li><img src="data1/images/mtb.jpg" alt="MTB" title="MTB" id="wows1_0"/></li>
+</ul>
+<h2>frenos se mantiene (Sram), al igual que el de ruedas (DT Swiss), Pedales (Ritchey) y Maxxis (sustituyendo a Dugast desde mediados de 2016). En cambio el proveedor de horquilla y amortiguadores ha cambiado (antes era DT Swiss y ahora es RockShox), así como el suministrador de varios de los componentes de la bicicleta, tales como sillín, tija, manillar, puños o potencia (antes todo era de Ritchey y ahora ha pasado a manos de Syncros, la marca de componentes de la firma Scott). <BR>
+  <font color="#FF0000">2. Bianchi Methanol CV – Stéphane Tempier</font>
+  La bicicleta del subcampeón de la Copa del Mundo de MTB, Stéphane Tempier, ha visto cómo su Bianchi Methanol CV ha sufrido algunos cambios importantes en cuanto a sus componentes (lo cual ha sido bastante interesante). Las suspensiones ahora corren a cargo de Fox (antes Formula), los frenos y transmisión son de Shimano (antes Formula y Sram, aunque en la transmisión sigue mezclando ciertas partes de FSA, tal y como se hacía en años anteriores) y el proveedor de sillines es Fi’zi:k (antes Selle San Marco). El resto de la bicicleta se mantiene y sigue siendo uno de los modelos más espectaculares del circuito.
+  <BR>
+  <font color="#FF0000">3. Cannondale Scalpel-SI Team – Maxime Marotte</font>
+  Éste ha sido el primer año de Marotte en Cannondale tras haber dejado el equipo de BH. Su Scalpel SI Team sufre muy pocas modificaciones con respecto a los modelos que se vieron en temporadas anteriores (a excepción de la actualización de algunos modelos, de la incorporación de la tija telescópica y de que ahora monta los pedales de Look). Aún con todo sigue siendo uno de los modelos más característicos del mundo y de mayor calidad.
+  <BR>
+  <font color="#FF0000">4. Trek Top Fuel – Anton Cooper</font>
+  Anton Cooper fue la gran incorporación de Trek para esta temporada y vaya año deportivo ha tenido (para bien). Es uno de los corredores con mayor proyección del mundo en estos momentos y además está con una de las máquinas más competitivas. Si bien con respecto a temporadas anteriores no hay nada que destacar (ya que no hay diferencias notables a nivel de componentes y cuadro), sí que hay que remarcar a modo de curiosidad que Anton es un corredor relativamente bajito y para adaptar la bici que tiene (con ruedas de 29″ obligatoriamente) lo mejor posible a su talla lleva una potencia invertida muy radical (49º).
+  <BR>
+  <font color="#FF0000">5. Specialized S-Works Epic – Jaroslav Kulhavy</font>
+  Ésta es la bicicleta de uno de los mejores ciclistas del mundo: Jaroslav Kulhavy (quien por distintos problemas de salud este año no ha podido rendir a su máximo nivel). Curiosamente ésta es una de las máquinas más deseadas por parte del público (ya que estamos hablando de uno de los buques insignia de Specialized), pero tiene la peculiaridad de que se trata de una de las bicis menos modificadas con respecto a su modelo de venta en tiendas, ya que apenas cambian algunas cosas como sus frenos (de Magura en la versión de Kulhavy), su desarrollo (lleva un asombroso plato de 40 dientes, cuando la versión de fábrica es de 32) y además sus puños son de otro modelo (también dentro del catálogo de la propia Specialized).</h2>
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/methanolcvteam2017.jpg" alt="Methanol-CV-Team-2017" title="Methanol-CV-Team-2017" id="wows2_0"/></li>
+		<li><img src="data2/images/sparkrc900worldcup.jpg" alt="Spark-RC-900-Worldcup" title="Spark-RC-900-Worldcup" id="wows2_1"/></li>
+		<li><img src="data2/images/cannondale_scalpel.jpg" alt="Cannondale Scalpel" title="Cannondale Scalpel" id="wows2_2"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/trek_anton_cooper.jpg" alt="wowslideshow" title="Trek Anton Cooper" id="wows2_3"/></a></li>
+		<li><img src="data2/images/kulhavy.jpg" alt="Kulhavy" title="Kulhavy" id="wows2_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Methanol-CV-Team-2017"><span><img src="data2/tooltips/methanolcvteam2017.jpg" alt="Methanol-CV-Team-2017"/>1</span></a>
+		<a href="#" title="Spark-RC-900-Worldcup"><span><img src="data2/tooltips/sparkrc900worldcup.jpg" alt="Spark-RC-900-Worldcup"/>2</span></a>
+		<a href="#" title="Cannondale Scalpel"><span><img src="data2/tooltips/cannondale_scalpel.jpg" alt="Cannondale Scalpel"/>3</span></a>
+		<a href="#" title="Trek Anton Cooper"><span><img src="data2/tooltips/trek_anton_cooper.jpg" alt="Trek Anton Cooper"/>4</span></a>
+		<a href="#" title="Kulhavy"><span><img src="data2/tooltips/kulhavy.jpg" alt="Kulhavy"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+</div>
+</div>
+<div data-role="content" align="center">
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/Bicycle.png" width="46" height="46">
+</div>
+<h4>Aplicacion Tres, RDBP</h4>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Por que se celebra el Día Mundial de la Bicicleta</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Porque el 19 de abril está marcado en el calendario como el Día Mundial de la Bicicleta. El porqué de esta celebración tiene detrás una historia muy interesante que merece la pena recordar hoy.La bicicleta es uno de los medios de transporte más divertidos para hacer una ruta por la ciudad. Si estás en Madrid, las dos ruedas son perfectas para hacer una ruta por los mercados Gourmet que han aflorado en la capital. En los últimos meses muchos de los mercados de barrio antiguo han visto como -tras una reforma- sus calles vuelven a llenarse de gente. La ruta en bicicleta que te proponemos desde Cambio16 está pensada para descubrirlos uno a uno.Desde entonces, todos los años, el 19 de Abril en todo el mundo la gente coge su bici para rememorar aquel “primer viaje” en bicicleta del doctor Hofmann.
+
+En la actualidad, existen unas 800 millones de bicicletas en el mundo y son utilizadas como medio de transporte principal o como vehículo de ocio. De cara al cuidado de las personas representa un completo ejercicio físico mientras que para el medio ambiente, su uso significa una disminución de las emisiones de CO2 a la atmósfera y una contribución para frenar el cambio climático.</h2>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','imagenes/giphy.gif',1)"><img src="imagenes/dia.jpg" width="800" height="650" id="Image34"></a> </div>
+<div data-role="content" align="center">
+<h2>19 DE ABRIL DÍA MUNDIAL DE LA BICICLETA
+<a href="https://www.youtube.com/watch?v=KLAB7NnqJCU" target="_self">Informacion</a>
+</h2>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+<img src="imagenes/Bicycle.png" width="46" height="46">
+</div>
+<h4>Aplicacion Tres, RDBP</h4>
+</div>
+</div>
+</body>
+</html>
